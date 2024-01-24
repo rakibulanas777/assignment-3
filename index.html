@@ -63,7 +63,7 @@
     </style>
   </head>
   <body class="font-manrope bg-white">
-    <header class="container mx-auto px-10">
+    <header class="container mx-auto px-6 sm:px-10">
       <!-- Navbar Area -->
       <nav>
         <div class="navbar bg-white">
@@ -72,7 +72,7 @@
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
+                  class="h-5 w-5 text-gray-900"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -96,7 +96,8 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-4xl font-extrabold text-gray-900"
+            <a
+              class="btn btn-ghost text-2xl sm:text-4xl font-extrabold text-gray-900"
               >Hockey’s</a
             >
           </div>
@@ -110,9 +111,11 @@
             </ul>
           </div>
           <div class="navbar-end flex gap-4 items-center">
-            <i class="fa-solid fa-magnifying-glass text-gray-900"></i>
+            <i
+              class="fa-solid fa-magnifying-glass sm:inline-block hidden text-gray-900"
+            ></i>
             <a
-              class="btn bg-[#FF4240] hover:bg-[#FF4240] px-6 font-bold text-xl text-white"
+              class="btn bg-[#FF4240] hover:bg-[#FF4240] px-4 font-bold text-xl text-white"
               >Get Ticket</a
             >
           </div>
@@ -125,7 +128,7 @@
           <div id="slide1" class="carousel-item relative w-full">
             <img src="Images/1.png" class="w-full h-[550px]" />
             <div
-              class="absolute flex justify-start transform bottom-7 ml-6 space-x-2"
+              class="absolute transform left-[50%] -translate-x-1/2 sm:left-24 sm:-translate-x-1/2 bottom-7 space-x-2"
             >
               <a
                 href="#slide3"
@@ -142,7 +145,7 @@
           <div id="slide2" class="carousel-item relative w-full">
             <img src="Images/2.png" class="w-full h-[550px]" />
             <div
-              class="absolute flex justify-start transform bottom-7 ml-6 space-x-2"
+              class="absolute transform left-[50%] -translate-x-1/2 sm:left-24 sm:-translate-x-1/2 bottom-7 space-x-2"
             >
               <a
                 href="#slide1"
@@ -159,7 +162,7 @@
           <div id="slide3" class="carousel-item relative w-full">
             <img src="Images/3.png" class="w-full h-[550px]" />
             <div
-              class="absolute flex items-center lg:justify-start bottom-7 ml-6 space-x-2"
+              class="absolute transform left-[50%] -translate-x-1/2 sm:left-24 sm:-translate-x-1/2 bottom-7 space-x-2"
             >
               <a
                 href="#slide2"
@@ -351,7 +354,7 @@
         <div class="grid grid-cols-1 text-gray-900 lg:grid-cols-2 mt-16 gap-5">
           <!-- First Card -->
           <div class="border-2 border-gray-300 p-5 rounded-lg">
-            <div class="flex gap-9">
+            <div class="flex flex-col sm:flex-row gap-9">
               <img src="Images/5.png" alt="" />
               <div class="space-x-2 lg:space-x-3">
                 <div class="grid grid-cols-3 gap-2 mb-3">
@@ -370,16 +373,19 @@
                 </div>
                 <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
                 <p>
-                  Dolor sit amet consectetur. Ut urna diam <br />
-                  quis sagittis.
+                  The FIFA flag is blue, with the organization's wordmark logo
+                  in the middle. The current FIFA flag was first flown during
+                  the 2018 FIF
                 </p>
                 <div
                   class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-3 lg:gap-8"
                 >
-                  <p class="text-[#FF4240] font-extrabold">Price - $22.00</p>
+                  <p class="text-[#FF4240] font-extrabold text-sm">
+                    Price - $22.00
+                  </p>
                   <div class="flex items-center space-x-2 lg:space-x-4">
                     <i class="fa-solid fa-cart-plus text-xl text-gray-400"></i>
-                    <p class="font-medium">Delivery Fee : Free</p>
+                    <p class="font-medium text-sm">Delivery Fee : Free</p>
                   </div>
                 </div>
               </div>
@@ -388,7 +394,7 @@
 
           <!-- Second Product  -->
           <div class="border-2 border-gray-300 p-5 rounded-lg">
-            <div class="flex gap-9">
+            <div class="flex flex-col sm:flex-row gap-9">
               <img src="Images/6.png" alt="" />
               <div class="space-x-2 lg:space-x-3">
                 <div class="grid grid-cols-3 gap-2 mb-3">
@@ -407,16 +413,19 @@
                 </div>
                 <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
                 <p>
-                  Dolor sit amet consectetur. Ut urna diam <br />
-                  quis sagittis.
+                  The FIFA flag is blue, with the organization's wordmark logo
+                  in the middle. The current FIFA flag was first flown during
+                  the 2018 FIF
                 </p>
                 <div
                   class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-3 lg:gap-8"
                 >
-                  <p class="text-[#FF4240] font-extrabold">Price - $22.00</p>
+                  <p class="text-[#FF4240] font-extrabold text-sm">
+                    Price - $22.00
+                  </p>
                   <div class="flex items-center space-x-2 lg:space-x-4">
                     <i class="fa-solid fa-cart-plus text-xl text-gray-400"></i>
-                    <p class="font-medium">Delivery Fee : Free</p>
+                    <p class="font-medium text-sm">Delivery Fee : Free</p>
                   </div>
                 </div>
               </div>
@@ -425,7 +434,7 @@
 
           <!-- Third Product -->
           <div class="border-2 border-gray-300 p-5 rounded-lg">
-            <div class="flex gap-9">
+            <div class="flex flex-col sm:flex-row gap-9">
               <img src="Images/7.png" alt="" />
               <div class="space-y-4">
                 <div class="grid grid-cols-3 gap-2 mb-3">
@@ -444,16 +453,19 @@
                 </div>
                 <h3 class="font-extrabold text-xl">Cap For Hockeys</h3>
                 <p>
-                  Dolor sit amet consectetur. Ut urna diam <br />
-                  quis sagittis.
+                  What are caps in hockey? Today, to be capped is an expression
+                  used as a measure of how many times someone has played for a
+                  particular team.
                 </p>
                 <div
                   class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-3 lg:gap-8"
                 >
-                  <p class="text-[#FF4240] font-extrabold">Price - $22.00</p>
+                  <p class="text-[#FF4240] font-extrabold text-sm">
+                    Price - $22.00
+                  </p>
                   <div class="flex items-center space-x-2 lg:space-x-4">
                     <i class="fa-solid fa-cart-plus text-xl text-gray-400"></i>
-                    <p class="font-medium">Delivery Fee : Free</p>
+                    <p class="font-medium text-sm">Delivery Fee : Free</p>
                   </div>
                 </div>
               </div>
@@ -461,7 +473,7 @@
           </div>
           <!-- Fourth Product -->
           <div class="border-2 border-gray-300 p-5 rounded-lg">
-            <div class="flex gap-9">
+            <div class="flex flex-col sm:flex-row gap-9">
               <img src="Images/8.png" alt="" />
               <div class="space-y-4">
                 <div class="grid grid-cols-3 gap-2 mb-3">
@@ -480,16 +492,19 @@
                 </div>
                 <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
                 <p>
-                  Dolor sit amet consectetur. Ut urna diam <br />
-                  quis sagittis.
+                  The FIFA flag is blue, with the organization's wordmark logo
+                  in the middle. The current FIFA flag was first flown during
+                  the 2018 FIF
                 </p>
                 <div
                   class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-3 lg:gap-8"
                 >
-                  <p class="text-[#FF4240] font-extrabold">Price - $22.00</p>
+                  <p class="text-[#FF4240] text-sm font-extrabold">
+                    Price - $22.00
+                  </p>
                   <div class="flex items-center space-x-2 lg:space-x-4">
                     <i class="fa-solid fa-cart-plus text-xl text-gray-400"></i>
-                    <p class="font-medium">Delivery Fee : Free</p>
+                    <p class="font-medium text-sm">Delivery Fee : Free</p>
                   </div>
                 </div>
               </div>
@@ -497,7 +512,7 @@
           </div>
           <!-- Five Product -->
           <div class="border-2 border-gray-300 p-5 rounded-lg">
-            <div class="flex gap-9">
+            <div class="flex flex-col sm:flex-row gap-9">
               <img src="Images/9.png" alt="" />
               <div class="space-y-4">
                 <div class="grid grid-cols-3 gap-2 mb-3">
@@ -516,16 +531,19 @@
                 </div>
                 <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
                 <p>
-                  Dolor sit amet consectetur. Ut urna diam <br />
-                  quis sagittis.
+                  The FIFA flag is blue, with the organization's wordmark logo
+                  in the middle. The current FIFA flag was first flown during
+                  the 2018 FIF
                 </p>
                 <div
                   class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-3 lg:gap-8"
                 >
-                  <p class="text-[#FF4240] font-extrabold">Price - $22.00</p>
+                  <p class="text-[#FF4240] text-sm font-extrabold">
+                    Price - $22.00
+                  </p>
                   <div class="flex items-center space-x-2 lg:space-x-4">
                     <i class="fa-solid fa-cart-plus text-xl text-gray-400"></i>
-                    <p class="font-medium">Delivery Fee : Free</p>
+                    <p class="font-medium text-sm">Delivery Fee : Free</p>
                   </div>
                 </div>
               </div>
@@ -533,7 +551,7 @@
           </div>
           <!-- Sixth Product -->
           <div class="border-2 border-gray-300 p-5 rounded-lg">
-            <div class="flex gap-9">
+            <div class="flex flex-col sm:flex-row gap-9">
               <img src="Images/10.png" alt="" />
               <div class="space-y-4">
                 <div class="grid grid-cols-3 gap-2 mb-3">
@@ -552,16 +570,19 @@
                 </div>
                 <h3 class="font-extrabold text-xl">World Cup Flags Football</h3>
                 <p>
-                  Dolor sit amet consectetur. Ut urna diam <br />
-                  quis sagittis.
+                  The FIFA flag is blue, with the organization's wordmark logo
+                  in the middle. The current FIFA flag was first flown during
+                  the 2018 FIF
                 </p>
                 <div
                   class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-3 lg:gap-8"
                 >
-                  <p class="text-[#FF4240] font-extrabold">Price - $22.00</p>
+                  <p class="text-[#FF4240] text-sm font-extrabold">
+                    Price - $22.00
+                  </p>
                   <div class="flex space-x-2 lg:space-x-4">
                     <i class="fa-solid fa-cart-plus text-xl text-gray-400"></i>
-                    <p class="font-medium">Delivery Fee : Free</p>
+                    <p class="font-medium text-sm">Delivery Fee : Free</p>
                   </div>
                 </div>
               </div>
@@ -571,17 +592,16 @@
       </section>
       <!-- Client Question Area -->
       <section class="my-20">
-        <div class="text-center space-y-5">
-          <h3 class="text-4xl font-extrabold">Our New Products</h3>
-          <p class="text-xl font-medium">
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-            turpis placerat <br />
-            dolor. Purus urna in sit nullam proin.
+        <div class="text-center text-gray-950 space-y-5">
+          <h3 class="text-4xl font-extrabold">Clients Question</h3>
+          <p class="text-base font-medium">
+            A client onboarding questionnaire is a survey sent to new customers
+            to get more information about their needs and goals.
           </p>
         </div>
         <!-- Ask Question Area -->
         <div
-          class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-16 border-2 border-gray-200 p-5"
+          class="grid grid-cols-1 lg:grid-cols-2 text-gray-950 gap-5 mt-16 border-2 border-gray-200 p-5"
         >
           <div class="w-full">
             <img src="Images/11.png" alt="" class="w-full h-[510px]" />
@@ -592,9 +612,8 @@
               <div class="collapse-title text-xl font-bold">Our Equipment</div>
               <div class="collapse-content">
                 <p>
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim <br />
-                  sagittis turpis in magna.
+                  Equipment most commonly refers to a set of tools or other
+                  objects commonly used to achieve a particular objective.
                 </p>
               </div>
             </div>
@@ -605,9 +624,8 @@
               </div>
               <div class="collapse-content">
                 <p>
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim <br />
-                  sagittis turpis in magna.
+                  Unstructured hockey play on outdoor rinks, streets, parking
+                  lots is a great way to build a passion for the game.
                 </p>
               </div>
             </div>
@@ -618,9 +636,8 @@
               </div>
               <div class="collapse-content">
                 <p>
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim <br />
-                  sagittis turpis in magna.
+                  Unstructured hockey play on outdoor rinks, streets, parking
+                  lots is a great way to build a passion for the game.
                 </p>
               </div>
             </div>
@@ -629,9 +646,8 @@
               <div class="collapse-title text-xl font-bold">Ski Touring</div>
               <div class="collapse-content">
                 <p>
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim <br />
-                  sagittis turpis in magna.
+                  Unstructured hockey play on outdoor rinks, streets, parking
+                  lots is a great way to build a passion for the game.
                 </p>
               </div>
             </div>
@@ -640,9 +656,8 @@
               <div class="collapse-title text-xl font-bold">Booking</div>
               <div class="collapse-content">
                 <p>
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim <br />
-                  sagittis turpis in magna.
+                  Unstructured hockey play on outdoor rinks, streets, parking
+                  lots is a great way to build a passion for the game.
                 </p>
               </div>
             </div>
@@ -651,9 +666,8 @@
               <div class="collapse-title text-xl font-bold">Pricings</div>
               <div class="collapse-content">
                 <p>
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim <br />
-                  sagittis turpis in magna.
+                  Unstructured hockey play on outdoor rinks, streets, parking
+                  lots is a great way to build a passion for the game.
                 </p>
               </div>
             </div>
@@ -662,15 +676,13 @@
       </section>
       <!-- Get in Touch Area -->
       <section class="my-20">
-        <div class="text-center space-y-5">
+        <div class="text-center text-gray-900 space-y-5">
           <h3 class="text-4xl font-extrabold">Get In Touch</h3>
-          <p class="text-xl font-medium">
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-            turpis placerat <br />
-            dolor. Purus urna in sit nullam proin.
+          <p class="text-base font-medium">
+            establish communication with someone.
           </p>
         </div>
-        <div class="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="mt-16 grid text-gray-900 grid-cols-1 lg:grid-cols-3 gap-6">
           <div
             class="grid grid-row-1 gap-3 border-2 border-gray-200 p-6 rounded-lg"
           >
@@ -692,7 +704,7 @@
                 </p>
               </div>
             </div>
-            <div class="bg-[#BCED6D1A] rounded-lg">
+            <div class="bg-[#629CF31A] rounded-lg">
               <div class="mt-6 lg:mt-14 space-y-5 ml-6 lg:mb-0 mb-5">
                 <img src="Images/Group 1171275321.png" alt="" />
                 <p>
@@ -703,63 +715,73 @@
             </div>
           </div>
           <!-- Form Area -->
-          <div class="lg:col-span-2">
+          <div class="lg:col-span-2 text-gray-900">
             <form class="grid grid-cols-1 gap-6 lg:grid-cols-2">
               <div class="form-control">
                 <label class="label">
-                  <span class="label-text text-xl font-bold">Your Name</span>
+                  <span class="label-text text-xl text-gray-900 font-bold"
+                    >Your Name</span
+                  >
                 </label>
                 <input
                   type="email"
                   placeholder="Enter Your Name"
-                  class="input bg-base-200"
+                  class="input bg-[#13131808]"
                   required
                 />
               </div>
               <div class="form-control">
                 <label class="label">
-                  <span class="label-text text-xl font-bold">Your Email</span>
+                  <span class="label-text text-xl text-gray-900 font-bold"
+                    >Your Email</span
+                  >
                 </label>
                 <input
                   type="Enter Your Email"
                   placeholder="Enter Your Name"
-                  class="input bg-base-200"
+                  class="input bg-[#13131808]"
                   required
                 />
               </div>
               <div class="form-control">
                 <label class="label">
-                  <span class="label-text text-xl font-bold">Subject</span>
+                  <span class="label-text text-xl text-gray-900 font-bold"
+                    >Subject</span
+                  >
                 </label>
                 <input
                   type="Enter Your Suject"
                   placeholder="Enter Your Name"
-                  class="input bg-base-200"
+                  class="input bg-[#13131808]"
                   required
                 />
               </div>
               <div class="form-control">
                 <label class="label">
-                  <span class="label-text text-xl font-bold">Phone Number</span>
+                  <span class="label-text text-xl text-gray-900 font-bold"
+                    >Phone Number</span
+                  >
                 </label>
                 <input
                   type="Enter Your Phone Number"
                   placeholder="Enter Your Name"
-                  class="input bg-base-200"
+                  class="input bg-[#13131808]"
                   required
                 />
               </div>
               <div class="form-control col-span-2">
                 <label class="label">
-                  <span class="label-text text-xl font-bold">Phone Number</span>
+                  <span class="label-text text-xl text-gray-900 font-bold"
+                    >Phone Number</span
+                  >
                 </label>
                 <textarea
                   name=""
-                  class="bg-base-200 rounded-lg"
+                  class="bg-[#13131808] p-3 rounded-lg"
                   placeholder="Write Your Message"
                   id=""
                   cols="70"
-                  rows="16"
+                  rows="10"
                 ></textarea>
               </div>
 
@@ -774,10 +796,12 @@
         <!-- Social Media Area -->
         <div class="my-6">
           <div
-            class="py-6 flex flex-col space-y-6 justify-center items-center bg-base-200"
+            class="py-6 flex flex-col space-y-6 justify-center items-center bg-[#13131808]"
           >
-            <h3 class="text-3xl font-extrabold">Social Media</h3>
-            <div class="flex text-2xl justify-center items-center space-x-10">
+            <h3 class="text-2xl font-extrabold text-gray-900">Social Media</h3>
+            <div
+              class="flex text-xl text-gray-900 justify-center items-center space-x-10"
+            >
               <i class="fa-brands fa-twitter"></i>
               <i class="fa-brands fa-facebook-f"></i>
               <i class="fa-brands fa-instagram"></i>
@@ -789,27 +813,33 @@
     </main>
     <!-- Footer Area Style -->
     <footer class="container mx-auto text-white px-10 bg-black py-10">
-      <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
-        <div class="space-y-4">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+        <div
+          class="space-y-4 text-center sm:text-start col-span-2 sm:col-span-1"
+        >
           <h3 class="text-[28px] font-extrabold">Get In Touch</h3>
           <p class="text-[16px] text-[#FFFFFF99]">
-            Dit amet consectetur. Condimentum <br />
-            adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
-            proin.
+            If you are, keep, or stay in touch with them, you write, phone, or
+            visit each other regularly. I will get in touch with solicitors
+            about this.
           </p>
           <div class="">
-            <div class="flex space-x-3 items-center text-[#FFFFFF99]">
+            <div
+              class="flex justify-center space-x-3 items-center sm:justify-start text-[#FFFFFF99]"
+            >
               <i class="fa-solid fa-envelope text-[#FF4240]"></i>
               <p class="font-medium text-[16px]">hockeys@support.com</p>
             </div>
-            <div class="flex space-x-3 items-center text-[#FFFFFF99]">
+            <div
+              class="flex space-x-3 justify-center sm:justify-start items-center text-[#FFFFFF99]"
+            >
               <i class="fa-solid fa-phone text-[#FF4240]"></i>
               <p class="font-medium text-[16px]">(+62) 123-321-543</p>
             </div>
           </div>
         </div>
 
-        <div class="space-y-4">
+        <div class="space-y-4 text-center sm:text-start">
           <h3 class="text-[18px] font-bold">Company</h3>
           <ul class="space-y-4 text-[16px] pt-3 text-[#FFFFFF99]">
             <li>About us</li>
@@ -820,7 +850,7 @@
           </ul>
         </div>
 
-        <div class="space-y-4">
+        <div class="space-y-4 text-center sm:text-start">
           <h3 class="text-[18px] font-bold">Support</h3>
           <ul class="space-y-4 text-[16px] pt-3 text-[#FFFFFF99]">
             <li>Help Center</li>
@@ -830,7 +860,9 @@
           </ul>
         </div>
 
-        <div class="space-y-4">
+        <div
+          class="space-y-4 text-center col-span-2 sm:col-span-1 sm:text-start"
+        >
           <h3 class="text-[18px] font-bold">Service</h3>
           <ul class="space-y-4 text-[16px] pt-3 text-[#FFFFFF99]">
             <li>Academy</li>
